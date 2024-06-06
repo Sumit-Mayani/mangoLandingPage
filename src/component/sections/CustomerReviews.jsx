@@ -1,290 +1,117 @@
-import React from 'react'
-import '../css/CustomerReviews.css'
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "../css/CustomerReviews.css";
+import { Autoplay } from 'swiper/modules';
 
 const CustomerReviews = () => {
+  const detailedTestimonials = [
+    {
+      name: "Anna Mull",
+      img: "/images/testimonial-img.png",
+      text: "In ornare dui porttitor nibh dictum convallis. Suspendisse vel sem erat. Curabitur facilisis eros nec pulvinar pretium. Suspendisse sed erat vehicula",
+      rating: 5,
+    },
+    {
+      name: "Anna Mull",
+      img: "/images/testimonial-img1.png",
+      text: "In ornare dui porttitor nibh dictum convallis. Suspendisse vel sem erat. Curabitur facilisis eros nec pulvinar pretium. Suspendisse sed erat vehicula",
+      rating: 4,
+    },
+    {
+      name: "Anna Mull",
+      img: "/images/testimonial-img2.png",
+      text: "In ornare dui porttitor nibh dictum convallis. Suspendisse vel sem erat. Curabitur facilisis eros nec pulvinar pretium. Suspendisse sed erat vehicula",
+      rating: 5,
+    },
+    // Add other detailed testimonials here...
+  ];
+
   return (
     <section className="testimonial_wrapper">
       <div className="container">
         <div className="row">
-          <div className="col-md-6 col-lg-5 col-xl-3">
-            <div className="testimonial_action--wrapper">
-              <h2 className="fertilizer_title">Testimonial</h2>
-              <div className="swiper-container testimonial_authors swiper-container-initialized swiper-container-vertical swiper-container-free-mode">
-                <div className="swiper-wrapper" style={{ transform: 'translate3d(0px, -168.25px, 0px)', transition: 'all 0ms ease 0s' }}><div className="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="2" style={{ height: '168.25px' }}>
-                  <div className="testimonial_author--slider">
-                    <div className="author_img--wrapper">
-                      <img data-src="../../public/images/testimonial-img.png" alt="avatar" className=" ls-is-cached lazyloaded" width="81" height="81" src="../../public/images/testimonial-img.png" />
-                    </div>
-                    <div className="author_details--wrapper">
-                      <div className="author_name">Holly Graham</div>
-                      <div className="author_rating">
-                        <a href="#" className="author_stars">
-                          <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                        </a>
-                        <a href="#" className="author_stars">
-                          <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                        </a>
-                        <a href="#" className="author_stars">
-                          <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                        </a>
-                        <a href="#" className="author_stars">
-                          <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                        </a>
-                        <a href="#" className="author_stars">
-                          <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                        </a>
-                      </div>
-                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
-                    </div>
-                  </div>
-                </div>
-                  <div className="swiper-slide swiper-slide-active" data-swiper-slide-index="0" style={{ height: '168.25px' }}>
-                    <div className="testimonial_author--slider">
-                      <div className="author_img--wrapper">
-                        <img data-src="/images/testimonial-img1.png" alt="avatar" className=" ls-is-cached lazyloaded" width="81" height="81" src="/images/testimonial-img1.png" />
-                      </div>
-                      <div className="author_details--wrapper">
-                        <div className="author_name">Paul Molive</div>
-                        <div className="author_rating">
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
-                        </div>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="swiper-slide swiper-slide-next" data-swiper-slide-index="1" style={{ height: '168.25px' }}>
-                    <div className="testimonial_author--slider">
-                      <div className="author_img--wrapper">
-                        <img data-src="/images/testimonial-img2.png" alt="avatar" className=" ls-is-cached lazyloaded" width="81" height="81" src="/images/testimonial-img2.png" />
-                      </div>
-                      <div className="author_details--wrapper">
-                        <div className="author_name">Peter Pants</div>
-                        <div className="author_rating">
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
-                        </div>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="2" style={{ height: '168.25px' }}>
-                    <div className="testimonial_author--slider">
-                      <div className="author_img--wrapper">
-                        <img data-src="/images/testimonial-img.png" alt="avatar" className=" ls-is-cached lazyloaded" width="81" height="81" src="/images/testimonial-img.png" />
-                      </div>
-                      <div className="author_details--wrapper">
-                        <div className="author_name">Holly Graham</div>
-                        <div className="author_rating">
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
-                        </div>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" style={{ height: '168.25px' }}>
-                    <div className="testimonial_author--slider">
-                      <div className="author_img--wrapper">
-                        <img data-src="/images/testimonial-img1.png" alt="avatar" className=" ls-is-cached lazyloaded" width="81" height="81" src="/images/testimonial-img1.png" />
-                      </div>
-                      <div className="author_details--wrapper">
-                        <div className="author_name">Paul Molive</div>
-                        <div className="author_rating">
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
-                        </div>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
-                      </div>
-                    </div>
-                  </div></div>
-                <span className="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-7 col-xl-7 testimonial_right--col">
+
+
+          <div className="col-md-12 testimonial_right--col">
             <div className="testimonial_details--wrapper">
-              <div className="swiper-container testimonial_author--details swiper-container-fade swiper-container-initialized swiper-container-horizontal">
-                <div className="swiper-wrapper" style={{ transition: 'all 0ms ease 0s' }}>
-                  <div className="swiper-slide author_slider" style={{
-                    width: '706px',
-                    opacity: 1,
-                    transform: 'translate3d(0px, 0px, 0px)',
-                    transition: 'all 0ms ease 0s'
-                  }}>
+              <Swiper
+                slidesPerView={1}
+                spaceBetween={10}
+                pagination={{
+                  clickable: true,
+                }}
+                // autoplay={{
+                //   delay: 2500,
+                //   disableOnInteraction: false,
+                // }}
+                // modules={[Autoplay]}
+                breakpoints={{
+                  640: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                  },
+                }}
+                effect="fade"
+                className="testimonial_author--details"
+              >
+                {detailedTestimonials.map((testimonial, index) => (
+                  <SwiperSlide key={index}>
                     <div className="author_details--slider">
                       <div className="author_single--img">
-                        <img data-src="/images/testimonial-img.png" alt="author" className=" ls-is-cached lazyloaded" width="289" height="319" src="/images/testimonial-img.png" />
+                        <img
+                          src={testimonial.img}
+                          alt="author"
+                          width="289"
+                          height="319"
+                        />
                       </div>
                       <div className="author_single--details">
-                        <span className="author_text">
-                          In ornare dui porttitor nibh dictum convallis.
-                          Suspendisse vel sem erat. Curabitur facilisis eros nec pulvinar pretium.
-                          Suspendisse sed erat vehicula
-                        </span>
-                        <div className="author_name">Anna Mull</div>
+                        <span className="author_text">{testimonial.text}</span>
+                        <div className="author_name">{testimonial.name}</div>
                         <div className="author_rating">
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
-                          <a href="#" className="author_stars">
-                            <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg" />
-                          </a>
+                          {Array.from({ length: testimonial.rating }).map(
+                            (_, i) => (
+                              <a href="#" key={i} className="author_stars">
+                                <img
+                                  src="/images/star.svg"
+                                  alt="star"
+                                  width="10"
+                                  height="9"
+                                />
+                              </a>
+                            )
+                          )}
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="swiper-slide author_slider swiper-slide-prev" style={{
-                    width: '706px',
-                    opacity: 1,
-                    transform: 'translate3d(-825px, 0px, 0px)',
-                    transition: 'all 0ms ease 0s'
-                  }}>
-                    {/* <div className="author_details--slider">
-    <div className="author_single--img">
-    <img data-src="/images/testimonal-slider-image.png" alt="author" className=" ls-is-cached lazyloaded" width="289" height="319" src="/images/testimonal-slider-image.png"/>
-    </div>
-    <div className="author_single--details">
-    <span className="author_text">
-    Curabitur facilisis eros nec pulvinar pretium.
-    Lorem Ipsum is simply dummy text of the printing and
-    typesetting industry.
-    Suspendisse sed erat vehicula.
-    </span>
-    <div className="author_name">Frapples Mull</div>
-    <div className="author_rating">
-    <a href="#" className="author_stars">
-    <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg"/>
-    </a>
-    <a href="#" className="author_stars">
-    <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg"/>
-    </a>
-    <a href="#" className="author_stars">
-    <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg"/>
-    </a>
-    <a href="#" className="author_stars">
-    <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg"/>
-    </a>
-    <a href="#" className="author_stars">
-    <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg"/>
-    </a>
-    </div>
-    </div>
-    </div> */}
-                  </div>
-                  {/* <div className="swiper-slide author_slider swiper-slide-active" style={{ 
-  width: '706px', 
-  opacity: 0.66289, 
-  transform: 'translate3d(-1650px, 0px, 0px)', 
-  transition: 'all 0ms ease 0s' 
-}}>
-    <div className="author_details--slider">
-    <div className="author_single--img">
-    <img data-src="/images/testimonal-slider-image2.png" alt="author" className=" ls-is-cached lazyloaded" width="289" height="319" src="/images/testimonal-slider-image2.png"/>
-    </div>
-    <div className="author_single--details">
-    <span className="author_text">
-    Lorem Ipsum is simply dummy text of the printing and
-    typesetting industry. Curabitur facilisis eros nec.
-    Suspendisse sed erat vehicula,
-    vehicula Suspendisse sed erat.
-    </span>
-    <div className="author_name">Bob Frapples</div>
-    <div className="author_rating">
-    <a href="#" className="author_stars">
-    <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg"/>
-    </a>
-    <a href="#" className="author_stars">
-    <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg"/>
-    </a>
-    <a href="#" className="author_stars">
-    <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg"/>
-    </a>
-    <a href="#" className="author_stars">
-    <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg"/>
-    </a>
-    <a href="#" className="author_stars">
-    <img data-src="/images/star.svg" alt="star" className=" ls-is-cached lazyloaded" width="10" height="9" src="/images/star.svg"/>
-    </a>
-    </div>
-    </div>
-    </div>
-    </div> */}
-                </div>
-                <span className="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
             </div>
           </div>
-          <div className="offset-xl-2"></div>
         </div>
       </div>
       <div className="fertilizer_sideimg--wrapper">
-        <img data-src="/images/testimonial.png" alt="fertilizer" className=" ls-is-cached lazyloaded" width="285" height="562" src="/images/testimonial.png" />
+        <img
+          src="/images/testimonial.png"
+          alt="fertilizer"
+          width="285"
+          height="562"
+        />
       </div>
       <div className="testimonial_sideeffect--wrapper">
-        <img data-src="/images/testimonial-sideimg.png" className=" ls-is-cached lazyloaded" width="352" height="623" alt="" src="/images/testimonial-sideimg.png" />
+        <img
+          src="/images/testimonial-sideimg.png"
+          width="352"
+          height="623"
+          alt=""
+        />
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default CustomerReviews
+export default CustomerReviews;
