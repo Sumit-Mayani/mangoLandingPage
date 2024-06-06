@@ -2,6 +2,7 @@ import React from 'react'
 import HeroSect from './sections/HeroSect'
 import CustomerReviews from './sections/CustomerReviews'
 import About from './About'
+import Dairy from './sections/Dairy'
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <HeroSect />
             <About />
             <CustomerReviews />
+            <Dairy/>
         </>
     )
 }
