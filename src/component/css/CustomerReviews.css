@@ -1059,7 +1059,7 @@ img {
 .author_text::before {
   content: '';
   position: absolute;
-  background: url('../../public/images/brown-quote.svg') no-repeat center;
+  background: url('../../../public/images/brown-quote.svg') no-repeat center;
   background-size: cover;
   width: 52px;
   height: 30px;
@@ -1125,7 +1125,7 @@ img {
   .author_single--details::before {
     content: '';
     position: absolute;
-    background: url('../../public/images/testimonial-border.svg') no-repeat center;
+    background: url('../../../public/images/testimonial-border.svg') no-repeat center;
     background-size: cover;
     width: 643px;
     height: 489px;

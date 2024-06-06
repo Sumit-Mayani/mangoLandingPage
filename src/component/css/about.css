@@ -170,7 +170,7 @@ img {
       position: relative;
     }
     .about_us--wrapper::after {
-      background: url('../../public/images/dotted1.png') no-repeat center;
+      background: url('../../../public/images/dotted1.png') no-repeat center;
       background-size: cover;
       position: absolute;
       content: '';
@@ -223,7 +223,7 @@ img {
     position: relative;
   }
   .our_team--wrapper::before {
-    background: url('../../public/images/dotted1.png') no-repeat center;
+    background: url('../../../public/images/dotted1.png') no-repeat center;
     background-size: cover;
     position: absolute;
     content: '';

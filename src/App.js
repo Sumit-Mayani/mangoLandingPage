@@ -1,14 +1,13 @@
-import CustomerReviews from "./component/CustomerReviews";
-import About from "./component/about";
-import Home from "./component/home";
+import CustomerReviews from "./component/sections/CustomerReviews";
+import About from "./component/About";
+import Home from "./component/Home";
 
 
 function App() {
   return (
     <div className="App">
-<CustomerReviews></CustomerReviews>
-
-      </div>
+      <Home />
+    </div>
   );
 }
 
