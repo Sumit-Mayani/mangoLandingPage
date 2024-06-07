@@ -9,21 +9,27 @@ import { Autoplay } from 'swiper/modules';
 const CustomerReviews = () => {
   const detailedTestimonials = [
     {
-      name: "Anna Mull",
-      img: "/images/testimonial-img.png",
-      text: "In ornare dui porttitor nibh dictum convallis. Suspendisse vel sem erat. Curabitur facilisis eros nec pulvinar pretium. Suspendisse sed erat vehicula",
+      name: "Rajesh M.",
+      img: "/images/testimonial-img1.png",
+      text: `Wow, these mangoes are something else! Super fresh and sweet, they make for the perfect snack on a hot day. Can't get enough of them!`,
       rating: 5,
     },
     {
-      name: "Anna Mull",
+      name: "Jignesh P.",
       img: "/images/testimonial-img1.png",
-      text: "In ornare dui porttitor nibh dictum convallis. Suspendisse vel sem erat. Curabitur facilisis eros nec pulvinar pretium. Suspendisse sed erat vehicula",
+      text: `I've never tasted mangoes this good before! The Kachi Kesar variety is absolutely delicious, and I love how juicy they are. Perfect for enjoying with family and friends!`,
       rating: 4,
     },
     {
-      name: "Anna Mull",
-      img: "/images/testimonial-img2.png",
-      text: "In ornare dui porttitor nibh dictum convallis. Suspendisse vel sem erat. Curabitur facilisis eros nec pulvinar pretium. Suspendisse sed erat vehicula",
+      name: "Sneha R.",
+      img: "/images/testimonial-img.png",
+      text: `Absolutely blown away by the quality of Priya Group's mangoes! Each bite bursts with flavor, and they're so juicy and ripe. It's like tasting summer in every bite! Highly recommend.`,
+      rating: 5,
+    },
+    {
+      name: "Pooja S.",
+      img: "/images/testimonial-img.png",
+      text: `These mangoes are a game-changer! The Alphonso variety from Priya Group is unparalleled in taste and freshness. Every slice is a slice of heaven, and I find myself craving more every time. Simply irresistible!`,
       rating: 5,
     },
     // Add other detailed testimonials here...

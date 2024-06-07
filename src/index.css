@@ -51,9 +51,11 @@
   background: #f2f6fa;
   overflow: hidden;
 }
+
 .veg_btn img {
   margin-left: 30px;
 }
+
 .veg_btn:hover img {
   mix-blend-mode: soft-light;
 }
@@ -65,15 +67,19 @@
   padding: 3.75rem 0rem 12rem;
   margin-top: 157px;
 }
+
 .vegetable_banner--wrapper .container {
   position: relative;
 }
+
 .healthy_living--wrapper img {
   width: 200px;
 }
+
 .healty_living--title {
   padding-bottom: 30px;
 }
+
 .healty_living--title {
   font-style: normal;
   font-weight: 900;
@@ -81,15 +87,18 @@
   line-height: 50px;
   text-transform: uppercase;
 }
+
 .healty_living--title .healthy {
   display: block;
   color: #20a401;
   line-height: 26px;
 }
+
 .healty_living--title .living {
   color: var(--veg-primary-color);
   line-height: 72px;
 }
+
 .veg_banner_left--col p {
   font-style: normal;
   font-weight: 500;
@@ -98,6 +107,7 @@
   text-transform: lowercase;
   color: #7e7e7e;
 }
+
 .veg_banner_left--col .veg_btn {
   margin-top: 1.875rem;
   margin-bottom: 1.875rem;
@@ -107,6 +117,7 @@
   position: relative;
   background: var(--veg-primary-color);
 }
+
 .vegetable_bg--text {
   font-style: normal;
   font-weight: 900;
@@ -115,11 +126,13 @@
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.2);
 }
+
 .banner_veg--img {
   position: absolute;
   top: -5rem;
   left: 0rem;
 }
+
 .banner_social--media {
   width: 32px;
   height: 158px;
@@ -128,16 +141,20 @@
   bottom: 19rem;
   z-index: 999;
 }
+
 .banner_social--media .banner_social--icons {
   display: block;
   margin-bottom: 10px;
 }
+
 .banner_social--media .banner_social--icons img {
   transition: all 0.5s ease-in-out;
 }
+
 .banner_social--media .banner_social--icons:hover img {
   transform: scale(1.2);
 }
+
 .banner_ecllipse--fruits {
   position: absolute;
   right: 0rem;
@@ -145,10 +162,12 @@
   width: 200px;
   z-index: 998;
 }
+
 .healthy_living--wrapper,
 .veg_banner_left--col .veg_btn {
   position: relative;
 }
+
 .healthy_living--wrapper::after {
   content: "";
   position: absolute;
@@ -158,6 +177,7 @@
   top: -3rem;
   left: 10rem;
 }
+
 .veg_banner_left--col .veg_btn::after {
   content: "";
   pointer-events: none;
@@ -167,25 +187,30 @@
   height: 70px;
   right: -15rem;
 }
+
 .banner_side--fruits {
   position: absolute;
   width: 150px;
   bottom: -6rem;
   left: 0rem;
 }
+
 @media (min-width: 576px) {
   .banner_veg--img {
     top: -13rem;
   }
 }
+
 @media (min-width: 768px) {
   .vegetable_banner--wrapper {
     margin-top: 177px;
   }
+
   .veg_banner_left--col p {
     font-size: 18px;
     line-height: 22px;
   }
+
   .vegetable_bg--text {
     font-size: 220px;
     line-height: 200px;
@@ -193,57 +218,72 @@
     display: block;
   }
 }
+
 @media (min-width: 992px) {
   .vegetable_banner--wrapper {
     padding: 0rem 0rem 12rem;
     margin-top: -13.8125rem;
   }
+
   .vegetable_banner--wrapper .row {
     align-items: center;
   }
+
   .veg_banner_left--col p {
     padding-right: 3rem;
   }
+
   .veg_banner_left--col {
     z-index: 995;
   }
+
   .veg_banner_right--col {
     z-index: 888;
   }
+
   .veg_banner_left--col,
   .veg_banner_right--col {
     height: 1000px;
     padding-top: 13.8125rem;
   }
+
   .banner_veg--img {
     top: auto;
     left: -19rem;
     bottom: -13rem;
   }
+
   .healthy_living--wrapper img {
     width: 300px;
   }
+
   .healty_living--title {
     font-size: 72px;
   }
+
   .healty_living--title .living {
     line-height: 120px;
   }
+
   .banner_orange--wrapper {
     position: absolute;
     right: -5rem;
   }
+
   .vegetable_bg--text {
     margin-left: -2rem;
   }
+
   .healthy_living--wrapper::after {
     left: 15rem;
   }
 }
+
 @media (min-width: 1200px) {
   .vegetable_banner--wrapper {
     position: relative;
   }
+
   .vegetable_banner--wrapper::after {
     content: "";
     position: absolute;
@@ -254,9 +294,11 @@
     right: 5rem;
     z-index: 995;
   }
+
   .veg_banner_right--col {
     position: relative;
   }
+
   .veg_banner_right--col::before {
     content: "";
     position: absolute;
@@ -267,6 +309,7 @@
     left: 6.6rem;
     z-index: 0;
   }
+
   .veg_banner_right--col::after {
     content: "";
     position: absolute;
@@ -277,84 +320,107 @@
     left: 23.3rem;
     z-index: -1;
   }
+
   .veg_banner_left--col,
   .veg_banner_right--col {
     height: 894px;
   }
+
   .healthy_living--wrapper img {
     width: auto;
   }
+
   .healty_living--title {
     font-size: 100px;
     line-height: 154px;
     padding-bottom: 11px;
   }
+
   .healty_living--title .living {
     line-height: 181px;
   }
+
   .banner_veg--img {
     width: 800px;
     bottom: -11rem;
   }
+
   .veg_banner_left--col p {
     padding-right: 12rem;
   }
+
   .veg_banner_right--col {
     padding-right: 83px;
   }
+
   .veg_banner_left--col {
     padding-left: 83px;
   }
+
   .healthy_living--wrapper::after {
     left: 24rem;
   }
 }
+
 @media (min-width: 1680px) {
+
   .veg_banner_left--col,
   .veg_banner_right--col {
     height: 994px;
   }
+
   .banner_veg--img {
     width: auto;
     bottom: -11rem;
     left: -25rem;
   }
+
   .veg_banner_left--col p {
     padding-right: 16rem;
   }
+
   .banner_side--fruits {
     width: auto;
     bottom: -10rem;
   }
 }
+
 @media (min-width: 1880px) {
   .veg_banner_left--col {
     padding-left: 114px;
   }
+
   .veg_banner_right--col {
     padding-right: 159px;
   }
+
   .veg_banner_left--col p {
     padding-right: 21rem;
   }
+
   .banner_social--media {
     bottom: 26rem;
   }
+
   .banner_veg--img {
     width: auto;
     left: -27rem;
     bottom: -13rem;
   }
+
   .banner_orange--wrapper {
     right: 0rem;
   }
+
   .banner_ecllipse--fruits {
     width: auto;
     bottom: 0rem;
   }
+
   .vegetable_banner--wrapper::after {
     right: 10rem;
   }
+
   .veg_banner_right--col::after {
     left: 30.3rem;
   }
@@ -365,6 +431,7 @@
 .green_quality--wrapper {
   margin-top: -12.1rem;
 }
+
 .green_quality--img img {
   width: 100%;
   text-align: center;
@@ -374,11 +441,13 @@
   background: var(--white);
   padding-top: 4rem;
 }
+
 .green_quality--col2 {
   background: var(--veg-primary-color);
   padding-top: 7rem;
   padding-bottom: 3rem;
 }
+
 .green_quality--title {
   font-family: var(--montserrat);
   font-style: normal;
@@ -390,9 +459,11 @@
   display: block;
   word-break: break-all;
 }
+
 .quality_title1 {
   color: var(--veg-secondary-color);
 }
+
 .discount_selected--items {
   font-style: normal;
   font-weight: bold;
@@ -403,6 +474,7 @@
   display: block;
   padding: 3.0625rem 0rem 2.375rem;
 }
+
 .green_quality--col2 p {
   font-style: normal;
   font-weight: 500;
@@ -411,16 +483,20 @@
   text-transform: lowercase;
   color: #373737;
 }
+
 .green_quality_facts--wrapper {
   padding-top: 5px;
 }
+
 .green_quality--facts {
   display: flex;
   align-items: center;
 }
+
 .green_quality--imgs {
   width: 100px;
 }
+
 .green_quality--facts .green_facts {
   font-style: normal;
   font-weight: bold;
@@ -431,17 +507,20 @@
   display: block;
   padding-left: 10px;
 }
+
 .veg_btn2 {
   background: transparent;
   border: 1px solid var(--white);
   margin-top: 1rem;
 }
+
 .veg_btn2:hover {
   background: var(--veg-btn);
   border-color: var(--veg-btn);
   color: var(--white);
   text-decoration: none;
 }
+
 .full_orange--wrapper {
   position: absolute;
   width: 150px;
@@ -449,78 +528,96 @@
   bottom: -8rem;
   z-index: 99;
 }
+
 @media (min-width: 576px) {
   .green_quality--wrapper .green_quality--col1 {
     padding-top: 0rem;
   }
+
   .green_quality_facts--wrapper {
     display: flex;
     align-items: center;
   }
+
   .veg_btn2 {
     margin-left: 2.5rem;
     margin-top: 0rem;
   }
 }
+
 @media (min-width: 992px) {
   .green_quality--wrapper .row {
     background-color: var(--veg-primary-color);
   }
+
   .green_quality--title {
     font-size: 58px;
     line-height: 60px;
     margin-left: -1rem;
   }
+
   .discount_selected--items {
     font-size: 30px;
     line-height: 35px;
   }
+
   .green_quality--wrapper .green_quality--col1 {
     display: flex;
     align-items: center;
   }
+
   .quality_title1 {
     margin-left: -4.6rem;
   }
 }
+
 @media (min-width: 1200px) {
+
   .green_quality--wrapper,
   .green_quality--col2 {
     position: relative;
   }
+
   .green_quality--col2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     padding: 4rem 5.1875rem 3rem 3.375rem;
   }
+
   .green_quality--title {
     font-size: 72px;
     line-height: 68px;
     margin-left: -3.5rem;
     z-index: 998;
   }
+
   .discount_selected--items {
     font-size: 36px;
     line-height: 44px;
     z-index: 998;
   }
+
   .green_quality--col2 p {
     font-size: 18px;
     line-height: 22px;
     z-index: 998;
   }
+
   .green_quality--facts .green_facts {
     font-size: 16px;
     line-height: 20px;
   }
+
   .green_quality--wrapper .green_quality--col1 {
     height: auto;
     padding: 0;
   }
+
   .quality_title1 {
     margin-left: -11.2rem;
   }
+
   .green_quality--wrapper::after {
     content: "";
     position: absolute;
@@ -531,9 +628,11 @@
     right: 5rem;
     z-index: 0;
   }
+
   .green_quality_facts--wrapper {
     z-index: 998;
   }
+
   .green_quality--col2::before {
     content: "";
     position: absolute;
@@ -544,6 +643,7 @@
     left: 6.6rem;
     z-index: 0;
   }
+
   .green_quality--col2::after {
     content: "";
     position: absolute;
@@ -555,32 +655,40 @@
     z-index: 0;
   }
 }
+
 @media (min-width: 1680px) {
   .green_quality--col2 {
     padding-top: 5rem;
   }
+
   .green_quality--col2 p {
     padding-right: 15rem;
   }
+
   .full_orange--wrapper {
     width: auto;
     bottom: -14rem;
   }
+
   .green_quality--title {
     font-size: 80px;
     line-height: 68px;
   }
 }
+
 @media (min-width: 1880px) {
   .green_quality--col2 {
     padding-top: 10rem;
   }
+
   .green_quality--wrapper::after {
     right: 10rem;
   }
+
   .green_quality--col2::after {
     left: 30.3rem;
   }
+
   .green_quality--col2 p {
     padding-right: 15rem;
   }
@@ -591,10 +699,12 @@
 .healthy_fruits--wrapper {
   position: relative;
 }
+
 .healthy_fruits--col1 {
   padding-top: 4.5625rem;
   padding-bottom: 3rem;
 }
+
 .healthy_fruits--col2::before {
   content: "";
   background: var(--veg-primary-color);
@@ -604,24 +714,30 @@
   height: 45%;
   width: 100%;
 }
+
 .healthy_fruits--col2 .healthy_fruits--img img {
   position: relative;
 }
+
 .healthy_fruits1 {
   color: #a10a7e;
 }
+
 .healthy_fruits2 {
   color: var(--veg-primary-color);
 }
+
 .healthy_fruits--col1 .veg_btn {
   margin-top: 1rem;
 }
+
 @media (min-width: 576px) {
   .healthy_fruits--col1 .veg_btn {
     margin-top: 0rem;
     margin-left: 2.5rem;
   }
 }
+
 @media (min-width: 992px) {
   .healthy_fruits--col1 {
     display: flex;
@@ -629,30 +745,37 @@
     align-items: flex-end;
     z-index: 100;
   }
+
   .healthy_fruits1 {
     margin-left: 0;
     margin-right: -7rem;
   }
+
   .healthy_fruits2 {
     margin-left: 0;
   }
+
   .healthy_fruits--img {
     position: absolute;
     bottom: -14rem;
     right: 0rem;
     z-index: 1;
   }
+
   .healthy_fruits--col2::before {
     height: 100%;
   }
 }
+
 @media (min-width: 1200px) {
   .healthy_fruits--col1 {
     padding-right: 4rem;
   }
+
   .healthy_fruits--col1 .green_quality_facts--wrapper {
     margin-right: 1.3125rem;
   }
+
   .healthy_fruits--wrapper::after {
     content: "";
     position: absolute;
@@ -663,6 +786,7 @@
     right: 5rem;
     z-index: 0;
   }
+
   .healthy_fruits--col2::before {
     content: "";
     position: absolute;
@@ -673,6 +797,7 @@
     left: 6.6rem;
     z-index: 0;
   }
+
   .healthy_fruits--col2::after {
     content: "";
     position: absolute;
@@ -683,42 +808,52 @@
     left: 23.3rem;
     z-index: 0;
   }
+
   .healthy_fruits1 {
     margin-right: -12rem;
   }
+
   .healthy_fruits--img {
     bottom: -21rem;
   }
+
   .healthy_fruits--col1 .green_facts {
     width: 210px;
   }
+
   .healthy_fruits--col2 {
     position: relative;
     background: var(--veg-primary-color);
   }
 }
+
 @media (min-width: 1300px) {
   .healthy_fruits--col1 {
     padding-right: 7rem;
   }
 }
+
 @media (min-width: 1400px) {
   .healthy_fruits--col1 {
     padding-right: 8rem;
   }
 }
+
 @media (min-width: 1680px) {
   .healthy_fruits--img {
     bottom: -28rem;
   }
 }
+
 @media (min-width: 1880px) {
   .healthy_fruits--wrapper::after {
     right: 10rem;
   }
+
   .healthy_fruits--col2::after {
     left: 30.3rem;
   }
+
   .healthy_fruits--col1 .green_quality_facts--wrapper {
     margin-right: 6.3125rem;
   }
@@ -729,95 +864,119 @@
 .organic_vegetables--wrapper {
   padding-top: 4rem;
 }
+
 .organic_vegetables--col1 {
   position: relative;
 }
+
 .organic_vegetables--img img {
   mix-blend-mode: multiply;
 }
+
 .organic_vegetables--col2 .organic_title1 {
   color: var(--veg-secondary-color);
 }
+
 .organic_vegetables--col2 .organic_title2 {
   color: #ff8b00;
 }
+
 .organic_vegetables--col2 p {
   padding-top: 3.875rem;
   padding-bottom: 0.4375rem;
 }
+
 .organic_veg--img {
   position: absolute;
   width: 300px;
   left: -0.9375rem;
   top: -9rem;
 }
+
 .organic_vegetables--col2 {
   z-index: 999;
   margin-top: -170px;
 }
+
 .organic_vegetables--wrapper .veg_btn {
   margin-top: 1rem;
 }
+
 .veg_btn {
   min-width: 190px;
 }
+
 @media (min-width: 480px) {
   .organic_vegetables--col2 {
     margin-top: -220px;
   }
 }
+
 @media (min-width: 576px) {
   .organic_vegetables--col2 .veg_btn {
     margin-left: 40px;
     margin-top: 0rem;
   }
 }
+
 @media (min-width: 992px) {
   .organic_vegetables--col2 .organic_title1 {
     margin-left: -5rem;
   }
+
   .organic_vegetables--col2 .full_orange--wrapper {
     bottom: -10rem;
   }
+
   .organic_vegetables--col2 {
     margin-top: 0;
   }
 }
+
 @media (min-width: 1200px) {
   .organic_vegetables--wrapper {
     padding-top: 8rem;
   }
+
   .organic_vegetables--col2 {
     padding-left: 3.375rem;
     padding-right: 5.1875rem;
   }
+
   .organic_vegetables--col2 .organic_title1 {
     margin-left: -12rem;
   }
+
   .organic_veg--img {
     width: 350px;
   }
+
   .organic_vegetables--col2 .full_orange--wrapper {
     width: 200px;
     bottom: 3rem;
   }
+
   .organic_vegetables--col2 p {
     padding-right: 10rem;
   }
 }
+
 @media (min-width: 1680px) {
   .organic_vegetables--col2 .full_orange--wrapper {
     width: auto;
     bottom: -1rem;
   }
+
   .organic_vegetables--col2 p {
     padding-right: 20rem;
   }
 }
+
 @media (min-width: 1880px) {
   .organic_vegetables--img {
     text-align: right;
   }
+
   .organic_veg--img {
     width: auto;
     top: -15rem;
@@ -828,24 +987,30 @@
 .new_arrivals--wrapper {
   padding-top: 1rem;
 }
+
 .new_arrivals_title--wrapper {
   margin-bottom: 4.375rem;
 }
+
 .new_arrival--title1 {
   color: #8d8d8d;
   margin-left: 0;
 }
+
 .new_arrival--title2 {
   color: #ffbb12;
   margin-left: 0;
 }
+
 .nav_arrival {
   margin-top: 1rem;
 }
+
 .nav_arrival .nav-item {
   max-width: 145px;
   width: 100%;
 }
+
 .nav_arrival .nav-link {
   font-style: normal;
   font-weight: 600;
@@ -861,21 +1026,26 @@
   text-align: center;
   transition: all 0.5s ease;
 }
+
 .nav_arrival .nav-link:hover {
   color: var(--black);
   border-color: var(--black);
 }
+
 .nav_arrival .nav-link.active {
   color: var(--white);
   background: var(--veg_btn--hover);
 }
+
 .slider_arrival--wrapper {
   position: relative;
   margin: 0 10px 30px;
 }
+
 .slider_arrival--wrapper .arrival_img {
   width: 100%;
 }
+
 .cart_and_like--wrapper {
   display: flex;
   align-items: center;
@@ -884,6 +1054,7 @@
   width: 100%;
   top: 12px;
 }
+
 .cart_and_like--wrapper .cart_wrapper,
 .cart_and_like--wrapper .like_wrapper {
   width: 42px;
@@ -894,27 +1065,34 @@
   align-items: center;
   transition: all ease-in-out 0.4s;
 }
+
 .cart_and_like--wrapper .cart_wrapper {
   margin-left: 15px;
   background: var(--veg-primary-color);
 }
+
 .cart_and_like--wrapper .cart_wrapper img {
   filter: none;
   transition: all ease 0.4s;
 }
+
 .cart_and_like--wrapper .cart_wrapper:hover img {
   filter: invert(1);
 }
+
 .cart_and_like--wrapper .cart_wrapper:hover {
   background: var(--veg-secondary-color);
 }
+
 .cart_and_like--wrapper .like_wrapper {
   margin-right: 24px;
   background: transparent;
 }
+
 .cart_and_like--wrapper .like_wrapper:hover {
   background: var(--veg-primary-color);
 }
+
 .cart_and_like--wrapper .offer_wrapper {
   font-family: var(--roboto);
   font-style: normal;
@@ -930,32 +1108,37 @@
   position: relative;
   margin-right: -1rem;
 }
+
 .cart_and_like--wrapper .offer_wrapper::after {
   content: "";
   position: absolute;
-  background: url("https://envato.wordpress-studio.io/html-themes/veggie-2/veggie-2-html-template/demo-pages/vegetable.html")
-    no-repeat center;
+  background: url("https://envato.wordpress-studio.io/html-themes/veggie-2/veggie-2-html-template/demo-pages/vegetable.html") no-repeat center;
   background-size: cover;
   width: 20px;
   height: 17px;
   right: 0rem;
   bottom: -17px;
 }
+
 .new_arrival--container1 .swiper-pagination {
   bottom: 6.5rem;
 }
+
 .new_arrival--container1 .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
   background: #868686;
 }
+
 .new_arrival--container1 .swiper-pagination-bullet-active {
   background: var(--black);
 }
+
 .new_arrival--details {
   text-align: center;
   padding-top: 1.125rem;
 }
+
 .new_arrival--details .new_item--price {
   font-family: var(--roboto);
   font-style: normal;
@@ -965,6 +1148,7 @@
   color: #212b30;
   display: block;
 }
+
 .new_arrival--details .new_item--title {
   font-style: normal;
   font-weight: bold;
@@ -973,24 +1157,29 @@
   color: var(--black);
   padding-top: 6px;
 }
+
 @media (min-width: 460px) {
   .nav_arrival .nav-item {
     margin-right: 1.875rem;
     margin-bottom: 1.875rem;
   }
+
   .nav_arrival .nav-item:last-child {
     margin-right: 0;
   }
 }
+
 @media (min-width: 992px) {
   .new_arrivals--wrapper {
     padding-top: 0rem;
   }
+
   .nav_arrival .nav-item {
     margin-right: 1.875rem;
     margin-bottom: 0rem;
     position: relative;
   }
+
   .nav_arrival .nav-item::after {
     content: "";
     position: absolute;
@@ -1000,35 +1189,43 @@
     top: 50%;
     right: -1.875rem;
   }
+
   .nav_arrival .nav-item:last-child::after {
     display: none;
   }
 }
+
 @media (min-width: 1200px) {
   .new_arrivals_title--wrapper {
     margin-bottom: 6.625rem;
   }
+
   .nav_arrival {
     margin-top: 0rem;
     width: 100%;
     justify-content: flex-end;
   }
+
   .nav_arrival .nav-item {
     margin-right: 2.875rem;
   }
+
   .nav_arrival .nav-item:last-child {
     margin-right: 0;
   }
+
   .nav_arrival .nav-item::after {
     width: 46px;
     right: -46px;
   }
+
   .new_arrivals_title--wrapper {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
   }
 }
+
 @media (min-width: 1200px) and (max-width: 1536px) {
   .cart_and_like--wrapper .offer_wrapper {
     font-size: 16px;
@@ -1036,12 +1233,14 @@
     width: 95px;
   }
 }
+
 @media (min-width: 1680px) {
   .nav_arrival .nav-link {
     font-size: 20px;
     line-height: 24px;
     padding: 18px;
   }
+
   .nav_arrival .nav-item {
     max-width: 195px;
     width: 100%;
@@ -1053,17 +1252,21 @@
 .fresh_fruits--wrapper {
   padding-top: 2.5rem;
 }
+
 .fresh_fruits--title1 {
   color: var(--veg-secondary-color);
 }
+
 .fresh_fruits--title2,
 .fresh_fruits--title3 {
   color: #ffbb12;
 }
+
 .fresh_fruits_inner--wrapper {
   position: relative;
   margin-top: 1.875rem;
 }
+
 .fresh_fruits_inner--wrapper p {
   font-style: normal;
   font-weight: normal;
@@ -1073,16 +1276,20 @@
   color: #7e7e7e;
   padding: 2.25rem 0rem 2.3125rem;
 }
+
 .fresh_items--wrapper {
   margin-bottom: 30px;
   max-width: 48%;
 }
+
 .fresh_items--wrapper:nth-of-type(1) {
   margin-right: 4%;
 }
+
 .fresh_items--wrapper img {
   max-height: 135px;
 }
+
 .fresh_items--wrapper .fresh_veg--title {
   font-family: var(--roboto);
   font-style: normal;
@@ -1093,16 +1300,19 @@
   display: block;
   padding-top: 1rem;
 }
+
 .fresh_veg--wrapper {
   margin-bottom: 1.5rem;
   display: flex;
   flex-wrap: wrap;
 }
+
 .fruit_sideimg--wrapper {
   position: absolute;
   right: -0.9375rem;
   bottom: 0rem;
 }
+
 .fruit_sideimg--wrapper img {
   width: 100px;
   mix-blend-mode: multiply;
@@ -1115,63 +1325,80 @@
     position: relative;
     margin-bottom: 3.625rem;
   }
+
   .fresh_items--wrapper {
     margin-bottom: 0rem;
     margin-right: 2.375rem;
   }
+
   .fresh_items--wrapper .fresh_veg--title {
     padding-top: 2.0625rem;
   }
 }
+
 @media (min-width: 992px) {
   .fresh_fruits_inner--wrapper .fresh_fruits--title1 {
     margin-left: 0rem;
   }
+
   .fresh_fruits_inner--wrapper .fresh_fruits--title2 {
     margin-left: 3rem;
   }
+
   .fresh_fruits_inner--wrapper .fresh_fruits--title3 {
     margin-left: 4rem;
   }
+
   .fresh_veg--wrapper {
     flex-wrap: nowrap;
   }
 }
+
 @media (min-width: 1200px) {
   .fresh_fruits_inner--wrapper p {
     font-size: 20px;
     padding: 3.25rem 0rem 4.3125rem;
   }
+
   .fresh_fruits_inner--wrapper .fresh_fruits--title2 {
     margin-left: 5rem;
   }
+
   .fresh_fruits_inner--wrapper .fresh_fruits--title3 {
     margin-left: 6rem;
   }
+
   .fresh_fruits_inner--wrapper p {
     padding-right: 5rem;
   }
+
   .fruit_sideimg--wrapper {
     bottom: -6rem;
   }
+
   .fruit_sideimg--wrapper img {
     width: 200px;
   }
 }
+
 @media (min-width: 1680px) {
   .fresh_fruits_inner--wrapper {
     padding-left: 3.375rem;
   }
+
   .fresh_fruits_inner--wrapper p {
     padding-right: 13rem;
   }
+
   .fruit_sideimg--wrapper img {
     width: auto;
   }
+
   .fruit_sideimg--wrapper {
     bottom: -8rem;
   }
 }
+
 /* -- our-recent-blogs -- */
 
 .our_recent_blogs--wrapper {
@@ -1179,6 +1406,7 @@
   z-index: 999;
   padding-top: 2rem;
 }
+
 .recent_blog_heading--wrapper {
   position: relative;
   z-index: 100;
@@ -1186,31 +1414,36 @@
   display: flex;
   align-items: flex-end;
 }
+
 .recent_blog_title--wrapper {
   max-width: 200px;
 }
+
 .recent_blog--title1 {
   color: #8d8d8d;
   position: relative;
   margin-left: 0rem;
 }
+
 .recent_blog--title1::before {
   content: "";
   position: absolute;
-  background: url("https://envato.wordpress-studio.io/html-themes/veggie-2/veggie-2-html-template/demo-pages/vegetable.html")
-    no-repeat center;
+  background: url("https://envato.wordpress-studio.io/html-themes/veggie-2/veggie-2-html-template/demo-pages/vegetable.html") no-repeat center;
   background-size: cover;
   width: 63px;
   height: 55px;
   top: -1rem;
   left: -2rem;
 }
+
 .recent_blog--title2 {
   color: #ffbd20;
 }
+
 .blog_action--btns::after {
   display: none;
 }
+
 .blog_action--btns {
   border: 1px solid #d1d1d1;
   width: 65px;
@@ -1223,6 +1456,7 @@
   top: auto;
   margin-top: 0;
 }
+
 .blog_action--wrapper {
   display: flex;
   flex-direction: row-reverse;
@@ -1233,31 +1467,38 @@
   position: absolute;
   right: 0.9375rem;
 }
+
 .blog_action--btns:hover {
   border-color: var(--veg-secondary-color);
 }
+
 .blog_inner--row {
   background: var(--white);
   box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.25);
   padding: 1.625rem 0;
 }
+
 .recent_blog--img {
   text-align: center;
   overflow: hidden;
   border-radius: 10px;
   margin: 0 1.5rem;
 }
+
 .recent_blog--img img {
   width: 100%;
   transform: scale(1);
   transition: all ease 0.4s;
 }
+
 .blog_inner--row:hover .recent_blog--img img {
   transform: scale(1.1);
 }
+
 .recent_blog--details {
   padding: 1rem 1.5rem 0rem;
 }
+
 .blog--title {
   font-style: normal;
   font-weight: bold;
@@ -1265,19 +1506,23 @@
   line-height: 146.19%;
   color: var(--black);
 }
+
 .blog_link--wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 13px 0px 16px;
 }
+
 .blog_info--wrapper {
   display: flex;
   align-items: center;
 }
+
 .blog_info--wrapper img {
   max-width: 16px;
 }
+
 .blog_info--wrapper .blog_info {
   font-family: var(--roboto);
   font-style: normal;
@@ -1288,6 +1533,7 @@
   display: block;
   padding-left: 10px;
 }
+
 .recent_blog--details p {
   font-family: var(--roboto);
   font-style: normal;
@@ -1296,6 +1542,7 @@
   line-height: 212.19%;
   color: #7e7e7e;
 }
+
 .read_now--btn {
   font-style: normal;
   font-weight: bold;
@@ -1314,108 +1561,136 @@
   background: transparent;
   transition: all ease 0.4s;
 }
+
 .read_now--btn img {
   margin-left: 15px;
   filter: none;
   transition: all ease 0.4s;
 }
+
 .read_now--btn:hover {
   color: var(--white);
   text-decoration: none;
   background: var(--veg_btn--hover);
 }
+
 .read_now--btn:hover img {
   filter: brightness(0) invert(1);
 }
+
 .blog_shop--btn {
   display: flex;
   justify-content: center;
   margin-top: 3.125rem;
 }
+
 @media (min-width: 576px) {
   .recent_blog_title--wrapper {
     max-width: 420px;
   }
+
   .recent_blog--title2 {
     margin-left: 4.625rem;
   }
+
   .read_now--btn {
     padding: 14px 5px;
   }
+
   .recent_blog--title2 {
     margin-left: 1.625rem;
   }
 }
+
 @media (min-width: 768px) {
   .recent_blog_title--wrapper {
     max-width: 500px;
   }
+
   .blog_inner--row {
     margin: 0px;
   }
+
   .blog_action--wrapper {
     bottom: 0.5375rem;
   }
+
   .recent_blog--details {
     padding: 1rem 0rem 0rem;
   }
+
   .blog_shop--btn {
     margin-top: 4.5rem;
   }
 }
+
 @media (min-width: 992px) {
   .recent_blog--img {
     margin: 0;
   }
 }
+
 @media (min-width: 1200px) {
   .blog_inner--cols:first-child {
     padding-right: 0px;
   }
+
   .blog_inner--cols:last-child {
     padding-left: 0px;
   }
+
   .recent_blog--details {
     padding: 18px 9px 0px 25px;
   }
+
   .blog_shop--btn {
     margin-bottom: 3rem;
   }
+
   .recent_blog_title--wrapper,
   .new_arrival--title {
     max-width: 100%;
     width: 700px;
   }
 }
+
 @media (min-width: 1800px) {
   .recent_blog--img {
     text-align: left;
   }
+
   .blog_inner--cols:first-child {
     padding-left: 31px;
   }
+
   .blog_info--wrapper .blog_info {
     font-size: 16px;
     line-height: 19px;
   }
 }
+
 /* -- container-size -- */
 
 @media (min-width: 1200px) {
+
   .vegetable_banner--wrapper .container,
   .our_recent_blogs--wrapper .container,
   .new_arrivals--wrapper .container {
     max-width: 1303px;
   }
 }
+
 @media (min-width: 1680px) {
+
   .vegetable_banner--wrapper .container,
   .our_recent_blogs--wrapper .container,
   .new_arrivals--wrapper .container {
     max-width: 1603px;
   }
 }
+
 @media (min-width: 1880px) {
+
   .vegetable_banner--wrapper .container,
   .our_recent_blogs--wrapper .container,
   .new_arrivals--wrapper .container {
@@ -1443,9 +1718,11 @@
   background: #f2f6fa;
   overflow: hidden;
 }
+
 .veg_btn img {
   margin-left: 30px;
 }
+
 .veg_btn:hover img {
   mix-blend-mode: soft-light;
 }
@@ -1457,15 +1734,23 @@
   padding: 3.75rem 0rem 12rem;
   margin-top: 157px;
 }
+
 .vegetable_banner--wrapper .container {
   position: relative;
 }
+
 .healthy_living--wrapper img {
   width: 200px;
 }
+
+.healthy_living--wrapper .blackText{
+  font-size: 60px;
+}
+
 .healty_living--title {
   padding-bottom: 30px;
 }
+
 .healty_living--title {
   font-style: normal;
   font-weight: 900;
@@ -1473,23 +1758,29 @@
   line-height: 50px;
   text-transform: uppercase;
 }
+
 .healty_living--title .healthy {
   display: block;
   color: #20a401;
-  line-height: 26px;
+  line-height: 100px;
+  font-size: 60px;
 }
+
 .healty_living--title .living {
+  font-size: 66px;
   color: var(--veg-primary-color);
-  line-height: 72px;
-}
+  line-height: 85px;
+} 
+
 .veg_banner_left--col p {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  text-transform: lowercase;
+  text-transform: unset;
   color: #7e7e7e;
 }
+
 .veg_banner_left--col .veg_btn {
   margin-top: 1.875rem;
   margin-bottom: 1.875rem;
@@ -1499,6 +1790,7 @@
   position: relative;
   background: var(--veg-primary-color);
 }
+
 .vegetable_bg--text {
   font-style: normal;
   font-weight: 900;
@@ -1507,11 +1799,13 @@
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.2);
 }
+
 .banner_veg--img {
   position: absolute;
   top: -5rem;
   left: 0rem;
 }
+
 .banner_social--media {
   width: 32px;
   height: 158px;
@@ -1520,16 +1814,20 @@
   bottom: 19rem;
   z-index: 999;
 }
+
 .banner_social--media .banner_social--icons {
   display: block;
   margin-bottom: 10px;
 }
+
 .banner_social--media .banner_social--icons img {
   transition: all 0.5s ease-in-out;
 }
+
 .banner_social--media .banner_social--icons:hover img {
   transform: scale(1.2);
 }
+
 .banner_ecllipse--fruits {
   position: absolute;
   right: 0rem;
@@ -1537,10 +1835,12 @@
   width: 200px;
   z-index: 998;
 }
+
 .healthy_living--wrapper,
 .veg_banner_left--col .veg_btn {
   position: relative;
 }
+
 .healthy_living--wrapper::after {
   content: "";
   position: absolute;
@@ -1550,6 +1850,7 @@
   top: -3rem;
   left: 10rem;
 }
+
 .veg_banner_left--col .veg_btn::after {
   content: "";
   pointer-events: none;
@@ -1559,25 +1860,30 @@
   height: 70px;
   right: -15rem;
 }
+
 .banner_side--fruits {
   position: absolute;
   width: 150px;
   bottom: -6rem;
   left: 0rem;
 }
+
 @media (min-width: 576px) {
   .banner_veg--img {
     top: -13rem;
   }
 }
+
 @media (min-width: 768px) {
   .vegetable_banner--wrapper {
     margin-top: 177px;
   }
+
   .veg_banner_left--col p {
     font-size: 18px;
     line-height: 22px;
   }
+
   .vegetable_bg--text {
     font-size: 220px;
     line-height: 200px;
@@ -1585,57 +1891,72 @@
     display: block;
   }
 }
+
 @media (min-width: 992px) {
   .vegetable_banner--wrapper {
     padding: 0rem 0rem 12rem;
     margin-top: -13.8125rem;
   }
+
   .vegetable_banner--wrapper .row {
     align-items: center;
   }
+
   .veg_banner_left--col p {
     padding-right: 3rem;
   }
+
   .veg_banner_left--col {
     z-index: 995;
   }
+
   .veg_banner_right--col {
     z-index: 888;
   }
+
   .veg_banner_left--col,
   .veg_banner_right--col {
     height: 1000px;
     padding-top: 13.8125rem;
   }
+
   .banner_veg--img {
     top: auto;
     left: -19rem;
     bottom: -13rem;
   }
+
   .healthy_living--wrapper img {
     width: 300px;
   }
+
   .healty_living--title {
     font-size: 72px;
   }
-  .healty_living--title .living {
+
+  /* .healty_living--title .living {
     line-height: 120px;
-  }
+  } */
+
   .banner_orange--wrapper {
     position: absolute;
     right: -5rem;
   }
+
   .vegetable_bg--text {
     margin-left: -2rem;
   }
+
   .healthy_living--wrapper::after {
     left: 15rem;
   }
 }
+
 @media (min-width: 1200px) {
   .vegetable_banner--wrapper {
     position: relative;
   }
+
   .vegetable_banner--wrapper::after {
     content: "";
     position: absolute;
@@ -1646,9 +1967,11 @@
     right: 5rem;
     z-index: 995;
   }
+
   .veg_banner_right--col {
     position: relative;
   }
+
   .veg_banner_right--col::before {
     content: "";
     position: absolute;
@@ -1659,6 +1982,7 @@
     left: 6.6rem;
     z-index: 0;
   }
+
   .veg_banner_right--col::after {
     content: "";
     position: absolute;
@@ -1669,84 +1993,107 @@
     left: 23.3rem;
     z-index: -1;
   }
+
   .veg_banner_left--col,
   .veg_banner_right--col {
     height: 894px;
   }
+
   .healthy_living--wrapper img {
     width: auto;
   }
+
   .healty_living--title {
     font-size: 100px;
-    line-height: 154px;
+    /* line-height: 154px; */
     padding-bottom: 11px;
   }
-  .healty_living--title .living {
+
+  /* .healty_living--title .living {
     line-height: 181px;
-  }
+  } */
+
   .banner_veg--img {
     width: 800px;
     bottom: -11rem;
   }
+
   .veg_banner_left--col p {
     padding-right: 12rem;
   }
+
   .veg_banner_right--col {
     padding-right: 83px;
   }
+
   .veg_banner_left--col {
     padding-left: 83px;
   }
+
   .healthy_living--wrapper::after {
     left: 24rem;
   }
 }
+
 @media (min-width: 1680px) {
+
   .veg_banner_left--col,
   .veg_banner_right--col {
     height: 994px;
   }
+
   .banner_veg--img {
     width: auto;
     bottom: -11rem;
     left: -25rem;
   }
+
   .veg_banner_left--col p {
     padding-right: 16rem;
   }
+
   .banner_side--fruits {
     width: 96%;
     bottom: 140px;
   }
 }
+
 @media (min-width: 1880px) {
   .veg_banner_left--col {
     padding-left: 114px;
   }
+
   .veg_banner_right--col {
     padding-right: 159px;
   }
+
   .veg_banner_left--col p {
     padding-right: 21rem;
   }
+
   .banner_social--media {
     bottom: 26rem;
   }
+
   .banner_veg--img {
     width: auto;
     left: -27rem;
     bottom: -13rem;
   }
+
   .banner_orange--wrapper {
     right: 0rem;
   }
+
   .banner_ecllipse--fruits {
     width: auto;
     bottom: 0rem;
   }
+
   .vegetable_banner--wrapper::after {
     right: 10rem;
   }
+
   .veg_banner_right--col::after {
     left: 30.3rem;
   }
@@ -1757,6 +2104,7 @@
 .green_quality--wrapper {
   margin-top: -12.1rem;
 }
+
 .green_quality--img img {
   width: 100%;
   text-align: center;
@@ -1766,11 +2114,13 @@
   background: var(--white);
   padding-top: 4rem;
 }
+
 .green_quality--col2 {
   background: var(--veg-primary-color);
   padding-top: 7rem;
   padding-bottom: 3rem;
 }
+
 .green_quality--title {
   font-family: var(--montserrat);
   font-style: normal;
@@ -1782,9 +2132,11 @@
   display: block;
   word-break: break-all;
 }
+
 .quality_title1 {
   color: var(--veg-secondary-color);
 }
+
 .discount_selected--items {
   font-style: normal;
   font-weight: bold;
@@ -1795,6 +2147,7 @@
   display: block;
   padding: 3.0625rem 0rem 2.375rem;
 }
+
 .green_quality--col2 p {
   font-style: normal;
   font-weight: 500;
@@ -1803,16 +2156,20 @@
   text-transform: lowercase;
   color: #373737;
 }
+
 .green_quality_facts--wrapper {
   padding-top: 5px;
 }
+
 .green_quality--facts {
   display: flex;
   align-items: center;
 }
+
 .green_quality--imgs {
   width: 100px;
 }
+
 .green_quality--facts .green_facts {
   font-style: normal;
   font-weight: bold;
@@ -1823,17 +2180,20 @@
   display: block;
   padding-left: 10px;
 }
+
 .veg_btn2 {
   background: transparent;
   border: 1px solid var(--white);
   margin-top: 1rem;
 }
+
 .veg_btn2:hover {
   background: var(--veg-btn);
   border-color: var(--veg-btn);
   color: var(--white);
   text-decoration: none;
 }
+
 .full_orange--wrapper {
   position: absolute;
   width: 150px;
@@ -1841,78 +2201,96 @@
   bottom: -8rem;
   z-index: 99;
 }
+
 @media (min-width: 576px) {
   .green_quality--wrapper .green_quality--col1 {
     padding-top: 0rem;
   }
+
   .green_quality_facts--wrapper {
     display: flex;
     align-items: center;
   }
+
   .veg_btn2 {
     margin-left: 2.5rem;
     margin-top: 0rem;
   }
 }
+
 @media (min-width: 992px) {
   .green_quality--wrapper .row {
     background-color: var(--veg-primary-color);
   }
+
   .green_quality--title {
     font-size: 58px;
     line-height: 60px;
     margin-left: -1rem;
   }
+
   .discount_selected--items {
     font-size: 30px;
     line-height: 35px;
   }
+
   .green_quality--wrapper .green_quality--col1 {
     display: flex;
     align-items: center;
   }
+
   .quality_title1 {
     margin-left: -4.6rem;
   }
 }
+
 @media (min-width: 1200px) {
+
   .green_quality--wrapper,
   .green_quality--col2 {
     position: relative;
   }
+
   .green_quality--col2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     padding: 4rem 5.1875rem 3rem 3.375rem;
   }
+
   .green_quality--title {
     font-size: 72px;
     line-height: 68px;
     margin-left: -3.5rem;
     z-index: 998;
   }
+
   .discount_selected--items {
     font-size: 36px;
     line-height: 44px;
     z-index: 998;
   }
+
   .green_quality--col2 p {
     font-size: 18px;
     line-height: 22px;
     z-index: 998;
   }
+
   .green_quality--facts .green_facts {
     font-size: 16px;
     line-height: 20px;
   }
+
   .green_quality--wrapper .green_quality--col1 {
     height: auto;
     padding: 0;
   }
+
   .quality_title1 {
     margin-left: -11.2rem;
   }
+
   .green_quality--wrapper::after {
     content: "";
     position: absolute;
@@ -1923,9 +2301,11 @@
     right: 5rem;
     z-index: 0;
   }
+
   .green_quality_facts--wrapper {
     z-index: 998;
   }
+
   .green_quality--col2::before {
     content: "";
     position: absolute;
@@ -1936,6 +2316,7 @@
     left: 6.6rem;
     z-index: 0;
   }
+
   .green_quality--col2::after {
     content: "";
     position: absolute;
@@ -1947,32 +2328,40 @@
     z-index: 0;
   }
 }
+
 @media (min-width: 1680px) {
   .green_quality--col2 {
     padding-top: 5rem;
   }
+
   .green_quality--col2 p {
     padding-right: 15rem;
   }
+
   .full_orange--wrapper {
     width: auto;
     bottom: -14rem;
   }
+
   .green_quality--title {
     font-size: 80px;
     line-height: 68px;
   }
 }
+
 @media (min-width: 1880px) {
   .green_quality--col2 {
     padding-top: 10rem;
   }
+
   .green_quality--wrapper::after {
     right: 10rem;
   }
+
   .green_quality--col2::after {
     left: 30.3rem;
   }
+
   .green_quality--col2 p {
     padding-right: 15rem;
   }
@@ -1983,10 +2372,12 @@
 .healthy_fruits--wrapper {
   position: relative;
 }
+
 .healthy_fruits--col1 {
   padding-top: 4.5625rem;
   padding-bottom: 3rem;
 }
+
 .healthy_fruits--col2::before {
   content: "";
   background: var(--veg-primary-color);
@@ -1996,24 +2387,30 @@
   height: 45%;
   width: 100%;
 }
+
 .healthy_fruits--col2 .healthy_fruits--img img {
   position: relative;
 }
+
 .healthy_fruits1 {
   color: #a10a7e;
 }
+
 .healthy_fruits2 {
   color: var(--veg-primary-color);
 }
+
 .healthy_fruits--col1 .veg_btn {
   margin-top: 1rem;
 }
+
 @media (min-width: 576px) {
   .healthy_fruits--col1 .veg_btn {
     margin-top: 0rem;
     margin-left: 2.5rem;
   }
 }
+
 @media (min-width: 992px) {
   .healthy_fruits--col1 {
     display: flex;
@@ -2021,30 +2418,37 @@
     align-items: flex-end;
     z-index: 100;
   }
+
   .healthy_fruits1 {
     margin-left: 0;
     margin-right: -7rem;
   }
+
   .healthy_fruits2 {
     margin-left: 0;
   }
+
   .healthy_fruits--img {
     position: absolute;
     bottom: -14rem;
     right: 0rem;
     z-index: 1;
   }
+
   .healthy_fruits--col2::before {
     height: 100%;
   }
 }
+
 @media (min-width: 1200px) {
   .healthy_fruits--col1 {
     padding-right: 4rem;
   }
+
   .healthy_fruits--col1 .green_quality_facts--wrapper {
     margin-right: 1.3125rem;
   }
+
   .healthy_fruits--wrapper::after {
     content: "";
     position: absolute;
@@ -2055,6 +2459,7 @@
     right: 5rem;
     z-index: 0;
   }
+
   .healthy_fruits--col2::before {
     content: "";
     position: absolute;
@@ -2065,6 +2470,7 @@
     left: 6.6rem;
     z-index: 0;
   }
+
   .healthy_fruits--col2::after {
     content: "";
     position: absolute;
@@ -2075,42 +2481,52 @@
     left: 23.3rem;
     z-index: 0;
   }
+
   .healthy_fruits1 {
     margin-right: -12rem;
   }
+
   .healthy_fruits--img {
     bottom: -21rem;
   }
+
   .healthy_fruits--col1 .green_facts {
     width: 210px;
   }
+
   .healthy_fruits--col2 {
     position: relative;
     background: var(--veg-primary-color);
   }
 }
+
 @media (min-width: 1300px) {
   .healthy_fruits--col1 {
     padding-right: 7rem;
   }
 }
+
 @media (min-width: 1400px) {
   .healthy_fruits--col1 {
     padding-right: 8rem;
   }
 }
+
 @media (min-width: 1680px) {
   .healthy_fruits--img {
     bottom: -28rem;
   }
 }
+
 @media (min-width: 1880px) {
   .healthy_fruits--wrapper::after {
     right: 10rem;
   }
+
   .healthy_fruits--col2::after {
     left: 30.3rem;
   }
+
   .healthy_fruits--col1 .green_quality_facts--wrapper {
     margin-right: 6.3125rem;
   }
@@ -2121,95 +2537,119 @@
 .organic_vegetables--wrapper {
   padding-top: 4rem;
 }
+
 .organic_vegetables--col1 {
   position: relative;
 }
+
 .organic_vegetables--img img {
   mix-blend-mode: multiply;
 }
+
 .organic_vegetables--col2 .organic_title1 {
   color: var(--veg-secondary-color);
 }
+
 .organic_vegetables--col2 .organic_title2 {
   color: #ff8b00;
 }
+
 .organic_vegetables--col2 p {
   padding-top: 3.875rem;
   padding-bottom: 0.4375rem;
 }
+
 .organic_veg--img {
   position: absolute;
   width: 300px;
   left: -0.9375rem;
   top: -9rem;
 }
+
 .organic_vegetables--col2 {
   z-index: 999;
   margin-top: -170px;
 }
+
 .organic_vegetables--wrapper .veg_btn {
   margin-top: 1rem;
 }
+
 .veg_btn {
   min-width: 190px;
 }
+
 @media (min-width: 480px) {
   .organic_vegetables--col2 {
     margin-top: -220px;
   }
 }
+
 @media (min-width: 576px) {
   .organic_vegetables--col2 .veg_btn {
     margin-left: 40px;
     margin-top: 0rem;
   }
 }
+
 @media (min-width: 992px) {
   .organic_vegetables--col2 .organic_title1 {
     margin-left: -5rem;
   }
+
   .organic_vegetables--col2 .full_orange--wrapper {
     bottom: -10rem;
   }
+
   .organic_vegetables--col2 {
     margin-top: 0;
   }
 }
+
 @media (min-width: 1200px) {
   .organic_vegetables--wrapper {
     padding-top: 8rem;
   }
+
   .organic_vegetables--col2 {
     padding-left: 3.375rem;
     padding-right: 5.1875rem;
   }
+
   .organic_vegetables--col2 .organic_title1 {
     margin-left: -12rem;
   }
+
   .organic_veg--img {
     width: 350px;
   }
+
   .organic_vegetables--col2 .full_orange--wrapper {
     width: 200px;
     bottom: 3rem;
   }
+
   .organic_vegetables--col2 p {
     padding-right: 10rem;
   }
 }
+
 @media (min-width: 1680px) {
   .organic_vegetables--col2 .full_orange--wrapper {
     width: auto;
     bottom: -1rem;
   }
+
   .organic_vegetables--col2 p {
     padding-right: 20rem;
   }
 }
+
 @media (min-width: 1880px) {
   .organic_vegetables--img {
     text-align: right;
   }
+
   .organic_veg--img {
     width: auto;
     top: -15rem;
@@ -2220,24 +2660,30 @@
 .new_arrivals--wrapper {
   padding-top: 1rem;
 }
+
 .new_arrivals_title--wrapper {
   margin-bottom: 4.375rem;
 }
+
 .new_arrival--title1 {
   color: #8d8d8d;
   margin-left: 0;
 }
+
 .new_arrival--title2 {
   color: #ffbb12;
   margin-left: 0;
 }
+
 .nav_arrival {
   margin-top: 1rem;
 }
+
 .nav_arrival .nav-item {
   max-width: 145px;
   width: 100%;
 }
+
 .nav_arrival .nav-link {
   font-style: normal;
   font-weight: 600;
@@ -2253,21 +2699,26 @@
   text-align: center;
   transition: all 0.5s ease;
 }
+
 .nav_arrival .nav-link:hover {
   color: var(--black);
   border-color: var(--black);
 }
+
 .nav_arrival .nav-link.active {
   color: var(--white);
   background: var(--veg_btn--hover);
 }
+
 .slider_arrival--wrapper {
   position: relative;
   margin: 0 10px 30px;
 }
+
 .slider_arrival--wrapper .arrival_img {
   width: 100%;
 }
+
 .cart_and_like--wrapper {
   display: flex;
   align-items: center;
@@ -2276,6 +2727,7 @@
   width: 100%;
   top: 12px;
 }
+
 .cart_and_like--wrapper .cart_wrapper,
 .cart_and_like--wrapper .like_wrapper {
   width: 42px;
@@ -2286,27 +2738,34 @@
   align-items: center;
   transition: all ease-in-out 0.4s;
 }
+
 .cart_and_like--wrapper .cart_wrapper {
   margin-left: 15px;
   background: var(--veg-primary-color);
 }
+
 .cart_and_like--wrapper .cart_wrapper img {
   filter: none;
   transition: all ease 0.4s;
 }
+
 .cart_and_like--wrapper .cart_wrapper:hover img {
   filter: invert(1);
 }
+
 .cart_and_like--wrapper .cart_wrapper:hover {
   background: var(--veg-secondary-color);
 }
+
 .cart_and_like--wrapper .like_wrapper {
   margin-right: 24px;
   background: transparent;
 }
+
 .cart_and_like--wrapper .like_wrapper:hover {
   background: var(--veg-primary-color);
 }
+
 .cart_and_like--wrapper .offer_wrapper {
   font-family: var(--roboto);
   font-style: normal;
@@ -2322,32 +2781,37 @@
   position: relative;
   margin-right: -1rem;
 }
+
 .cart_and_like--wrapper .offer_wrapper::after {
   content: "";
   position: absolute;
-  background: url("https://envato.wordpress-studio.io/html-themes/veggie-2/veggie-2-html-template/demo-pages/vegetable.html")
-    no-repeat center;
+  background: url("https://envato.wordpress-studio.io/html-themes/veggie-2/veggie-2-html-template/demo-pages/vegetable.html") no-repeat center;
   background-size: cover;
   width: 20px;
   height: 17px;
   right: 0rem;
   bottom: -17px;
 }
+
 .new_arrival--container1 .swiper-pagination {
   bottom: 6.5rem;
 }
+
 .new_arrival--container1 .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
   background: #868686;
 }
+
 .new_arrival--container1 .swiper-pagination-bullet-active {
   background: var(--black);
 }
+
 .new_arrival--details {
   text-align: center;
   padding-top: 1.125rem;
 }
+
 .new_arrival--details .new_item--price {
   font-family: var(--roboto);
   font-style: normal;
@@ -2357,6 +2821,7 @@
   color: #212b30;
   display: block;
 }
+
 .new_arrival--details .new_item--title {
   font-style: normal;
   font-weight: bold;
@@ -2365,24 +2830,29 @@
   color: var(--black);
   padding-top: 6px;
 }
+
 @media (min-width: 460px) {
   .nav_arrival .nav-item {
     margin-right: 1.875rem;
     margin-bottom: 1.875rem;
   }
+
   .nav_arrival .nav-item:last-child {
     margin-right: 0;
   }
 }
+
 @media (min-width: 992px) {
   .new_arrivals--wrapper {
     padding-top: 0rem;
   }
+
   .nav_arrival .nav-item {
     margin-right: 1.875rem;
     margin-bottom: 0rem;
     position: relative;
   }
+
   .nav_arrival .nav-item::after {
     content: "";
     position: absolute;
@@ -2392,35 +2862,43 @@
     top: 50%;
     right: -1.875rem;
   }
+
   .nav_arrival .nav-item:last-child::after {
     display: none;
   }
 }
+
 @media (min-width: 1200px) {
   .new_arrivals_title--wrapper {
     margin-bottom: 6.625rem;
   }
+
   .nav_arrival {
     margin-top: 0rem;
     width: 100%;
     justify-content: flex-end;
   }
+
   .nav_arrival .nav-item {
     margin-right: 2.875rem;
   }
+
   .nav_arrival .nav-item:last-child {
     margin-right: 0;
   }
+
   .nav_arrival .nav-item::after {
     width: 46px;
     right: -46px;
   }
+
   .new_arrivals_title--wrapper {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
   }
 }
+
 @media (min-width: 1200px) and (max-width: 1536px) {
   .cart_and_like--wrapper .offer_wrapper {
     font-size: 16px;
@@ -2428,12 +2906,14 @@
     width: 95px;
   }
 }
+
 @media (min-width: 1680px) {
   .nav_arrival .nav-link {
     font-size: 20px;
     line-height: 24px;
     padding: 18px;
   }
+
   .nav_arrival .nav-item {
     max-width: 195px;
     width: 100%;
@@ -2445,17 +2925,21 @@
 .fresh_fruits--wrapper {
   padding-top: 2.5rem;
 }
+
 .fresh_fruits--title1 {
   color: var(--veg-secondary-color);
 }
+
 .fresh_fruits--title2,
 .fresh_fruits--title3 {
   color: #ffbb12;
 }
+
 .fresh_fruits_inner--wrapper {
   position: relative;
   margin-top: 1.875rem;
 }
+
 .fresh_fruits_inner--wrapper p {
   font-style: normal;
   font-weight: normal;
@@ -2465,16 +2949,20 @@
   color: #7e7e7e;
   padding: 2.25rem 0rem 2.3125rem;
 }
+
 .fresh_items--wrapper {
   margin-bottom: 30px;
   max-width: 48%;
 }
+
 .fresh_items--wrapper:nth-of-type(1) {
   margin-right: 4%;
 }
+
 .fresh_items--wrapper img {
   max-height: 135px;
 }
+
 .fresh_items--wrapper .fresh_veg--title {
   font-family: var(--roboto);
   font-style: normal;
@@ -2485,16 +2973,19 @@
   display: block;
   padding-top: 1rem;
 }
+
 .fresh_veg--wrapper {
   margin-bottom: 1.5rem;
   display: flex;
   flex-wrap: wrap;
 }
+
 .fruit_sideimg--wrapper {
   position: absolute;
   right: -0.9375rem;
   bottom: 0rem;
 }
+
 .fruit_sideimg--wrapper img {
   width: 100px;
   mix-blend-mode: multiply;
@@ -2507,63 +2998,80 @@
     position: relative;
     margin-bottom: 3.625rem;
   }
+
   .fresh_items--wrapper {
     margin-bottom: 0rem;
     margin-right: 2.375rem;
   }
+
   .fresh_items--wrapper .fresh_veg--title {
     padding-top: 2.0625rem;
   }
 }
+
 @media (min-width: 992px) {
   .fresh_fruits_inner--wrapper .fresh_fruits--title1 {
     margin-left: 0rem;
   }
+
   .fresh_fruits_inner--wrapper .fresh_fruits--title2 {
     margin-left: 3rem;
   }
+
   .fresh_fruits_inner--wrapper .fresh_fruits--title3 {
     margin-left: 4rem;
   }
+
   .fresh_veg--wrapper {
     flex-wrap: nowrap;
   }
 }
+
 @media (min-width: 1200px) {
   .fresh_fruits_inner--wrapper p {
     font-size: 20px;
     padding: 3.25rem 0rem 4.3125rem;
   }
+
   .fresh_fruits_inner--wrapper .fresh_fruits--title2 {
     margin-left: 5rem;
   }
+
   .fresh_fruits_inner--wrapper .fresh_fruits--title3 {
     margin-left: 6rem;
   }
+
   .fresh_fruits_inner--wrapper p {
     padding-right: 5rem;
   }
+
   .fruit_sideimg--wrapper {
     bottom: -6rem;
   }
+
   .fruit_sideimg--wrapper img {
     width: 200px;
   }
 }
+
 @media (min-width: 1680px) {
   .fresh_fruits_inner--wrapper {
     padding-left: 3.375rem;
   }
+
   .fresh_fruits_inner--wrapper p {
     padding-right: 13rem;
   }
+
   .fruit_sideimg--wrapper img {
     width: auto;
   }
+
   .fruit_sideimg--wrapper {
     bottom: -8rem;
   }
 }
+
 /* -- our-recent-blogs -- */
 
 .our_recent_blogs--wrapper {
@@ -2571,6 +3079,7 @@
   z-index: 999;
   padding-top: 2rem;
 }
+
 .recent_blog_heading--wrapper {
   position: relative;
   z-index: 100;
@@ -2578,31 +3087,36 @@
   display: flex;
   align-items: flex-end;
 }
+
 .recent_blog_title--wrapper {
   max-width: 200px;
 }
+
 .recent_blog--title1 {
   color: #8d8d8d;
   position: relative;
   margin-left: 0rem;
 }
+
 .recent_blog--title1::before {
   content: "";
   position: absolute;
-  background: url("https://envato.wordpress-studio.io/html-themes/veggie-2/veggie-2-html-template/demo-pages/vegetable.html")
-    no-repeat center;
+  background: url("https://envato.wordpress-studio.io/html-themes/veggie-2/veggie-2-html-template/demo-pages/vegetable.html") no-repeat center;
   background-size: cover;
   width: 63px;
   height: 55px;
   top: -1rem;
   left: -2rem;
 }
+
 .recent_blog--title2 {
   color: #ffbd20;
 }
+
 .blog_action--btns::after {
   display: none;
 }
+
 .blog_action--btns {
   border: 1px solid #d1d1d1;
   width: 65px;
@@ -2615,6 +3129,7 @@
   top: auto;
   margin-top: 0;
 }
+
 .blog_action--wrapper {
   display: flex;
   flex-direction: row-reverse;
@@ -2625,31 +3140,38 @@
   position: absolute;
   right: 0.9375rem;
 }
+
 .blog_action--btns:hover {
   border-color: var(--veg-secondary-color);
 }
+
 .blog_inner--row {
   background: var(--white);
   box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.25);
   padding: 1.625rem 0;
 }
+
 .recent_blog--img {
   text-align: center;
   overflow: hidden;
   border-radius: 10px;
   margin: 0 1.5rem;
 }
+
 .recent_blog--img img {
   width: 100%;
   transform: scale(1);
   transition: all ease 0.4s;
 }
+
 .blog_inner--row:hover .recent_blog--img img {
   transform: scale(1.1);
 }
+
 .recent_blog--details {
   padding: 1rem 1.5rem 0rem;
 }
+
 .blog--title {
   font-style: normal;
   font-weight: bold;
@@ -2657,19 +3179,23 @@
   line-height: 146.19%;
   color: var(--black);
 }
+
 .blog_link--wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 13px 0px 16px;
 }
+
 .blog_info--wrapper {
   display: flex;
   align-items: center;
 }
+
 .blog_info--wrapper img {
   max-width: 16px;
 }
+
 .blog_info--wrapper .blog_info {
   font-family: var(--roboto);
   font-style: normal;
@@ -2680,6 +3206,7 @@
   display: block;
   padding-left: 10px;
 }
+
 .recent_blog--details p {
   font-family: var(--roboto);
   font-style: normal;
@@ -2688,6 +3215,7 @@
   line-height: 212.19%;
   color: #7e7e7e;
 }
+
 .read_now--btn {
   font-style: normal;
   font-weight: bold;
@@ -2706,108 +3234,136 @@
   background: transparent;
   transition: all ease 0.4s;
 }
+
 .read_now--btn img {
   margin-left: 15px;
   filter: none;
   transition: all ease 0.4s;
 }
+
 .read_now--btn:hover {
   color: var(--white);
   text-decoration: none;
   background: var(--veg_btn--hover);
 }
+
 .read_now--btn:hover img {
   filter: brightness(0) invert(1);
 }
+
 .blog_shop--btn {
   display: flex;
   justify-content: center;
   margin-top: 3.125rem;
 }
+
 @media (min-width: 576px) {
   .recent_blog_title--wrapper {
     max-width: 420px;
   }
+
   .recent_blog--title2 {
     margin-left: 4.625rem;
   }
+
   .read_now--btn {
     padding: 14px 5px;
   }
+
   .recent_blog--title2 {
     margin-left: 1.625rem;
   }
 }
+
 @media (min-width: 768px) {
   .recent_blog_title--wrapper {
     max-width: 500px;
   }
+
   .blog_inner--row {
     margin: 0px;
   }
+
   .blog_action--wrapper {
     bottom: 0.5375rem;
   }
+
   .recent_blog--details {
     padding: 1rem 0rem 0rem;
   }
+
   .blog_shop--btn {
     margin-top: 4.5rem;
   }
 }
+
 @media (min-width: 992px) {
   .recent_blog--img {
     margin: 0;
   }
 }
+
 @media (min-width: 1200px) {
   .blog_inner--cols:first-child {
     padding-right: 0px;
   }
+
   .blog_inner--cols:last-child {
     padding-left: 0px;
   }
+
   .recent_blog--details {
     padding: 18px 9px 0px 25px;
   }
+
   .blog_shop--btn {
     margin-bottom: 3rem;
   }
+
   .recent_blog_title--wrapper,
   .new_arrival--title {
     max-width: 100%;
     width: 700px;
   }
 }
+
 @media (min-width: 1800px) {
   .recent_blog--img {
     text-align: left;
   }
+
   .blog_inner--cols:first-child {
     padding-left: 31px;
   }
+
   .blog_info--wrapper .blog_info {
     font-size: 16px;
     line-height: 19px;
   }
 }
+
 /* -- container-size -- */
 
 @media (min-width: 1200px) {
+
   .vegetable_banner--wrapper .container,
   .our_recent_blogs--wrapper .container,
   .new_arrivals--wrapper .container {
     max-width: 1303px;
   }
 }
+
 @media (min-width: 1680px) {
+
   .vegetable_banner--wrapper .container,
   .our_recent_blogs--wrapper .container,
   .new_arrivals--wrapper .container {
     max-width: 1603px;
   }
 }
+
 @media (min-width: 1880px) {
+
   .vegetable_banner--wrapper .container,
   .our_recent_blogs--wrapper .container,
   .new_arrivals--wrapper .container {
@@ -2822,6 +3378,7 @@
   margin-right: auto;
   margin-left: auto;
 }
+
 .btn {
   font-family: var(--roboto);
   font-style: normal;
@@ -2835,6 +3392,7 @@
   display: block;
   transition: all 0.5s ease-in-out;
 }
+
 .btn_regular {
   font-family: var(--roboto);
   font-style: normal;
@@ -2842,6 +3400,7 @@
   letter-spacing: 0.3em;
   transition: all 0.5s ease-in-out;
 }
+
 /* -- green-btn -- */
 .green_btn {
   color: var(--white);
@@ -2849,10 +3408,12 @@
   border: 1px solid var(--light-green);
   filter: drop-shadow(0px 14px 34px rgba(3, 173, 84, 0.32));
 }
+
 .green_btn:hover {
   color: var(--light-green);
   background: var(--white);
 }
+
 /* -- social-btn -- */
 .social_btn {
   display: flex;
@@ -2868,15 +3429,18 @@
   padding: 9px 5px;
   transition: all 0.5s ease-in-out;
 }
+
 .social_btn .text_wrapper {
   padding-left: 8px;
 }
+
 @media (min-width: 480px) {
   .social_btn {
     font-size: 14px;
     padding: 13px 12px;
   }
 }
+
 /* -- black-btn -- */
 .black_btn {
   background: var(--black);
@@ -2884,10 +3448,12 @@
   border-radius: 130px;
   color: var(--white);
 }
+
 .black_btn:hover {
   color: var(--black);
   background: var(--white);
 }
+
 /* -- form-post-comment-btn -- */
 
 .post_comment--btn {
@@ -2902,6 +3468,7 @@
   max-width: 200px;
   width: 100%;
 }
+
 .post_comment--btn:hover {
   border-color: var(--black);
   background: transparent;
@@ -2928,26 +3495,31 @@
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
+
 .read_more_yellow--btn {
   color: var(--black);
   background: #e4c02e;
   border-color: #e4c02e;
 }
+
 .read_more_yellow--btn:hover {
   color: var(--white);
   background: transparent;
   border-color: var(--white);
 }
+
 .read_more_trans--btn {
   color: var(--white);
   background: transparent;
   border-color: var(--white);
 }
+
 .read_more_trans--btn:hover {
   color: var(--white);
   background: var(--black);
   border-color: var(--black);
 }
+
 @media (min-width: 480px) {
   .btn_read {
     padding: 0.59375rem 0.1875rem;
@@ -2974,10 +3546,12 @@
   padding: 0.6rem;
   text-decoration: none;
 }
+
 .add_to_cart--btn:hover {
   color: var(--white);
   background: var(--green-btn-hover);
 }
+
 @media (min-width: 576px) {
   .add_to_cart--btn {
     font-size: 11px;
@@ -3004,6 +3578,7 @@
   width: 123px;
   transition: all 0.5s ease;
 }
+
 .buy_now--btn:hover {
   color: var(--white);
   background: var(--green-btn-hover);
@@ -3028,11 +3603,13 @@
   width: 100%;
   transition: all 0.5s ease-in-out;
 }
+
 .home_btn:hover {
   color: var(--white);
   background: var(--green-btn-hover);
   text-decoration: none;
 }
+
 @media (min-width: 768px) {
   .home_btn {
     font-size: 14px;
@@ -3060,33 +3637,40 @@
   padding: 0.9rem;
   transition: all 0.5s ease;
 }
+
 .dairy_read_transparent--white {
   border-color: var(--white);
   color: var(--white);
 }
+
 .dairy_read_transparent--black {
   border-color: var(--black);
   color: var(--black);
 }
+
 .dairy_read--yellow {
   background: var(--dairy-secondary-color);
   border-color: var(--dairy-secondary-color);
   color: var(--black);
 }
+
 .dairy_read_transparent--white:hover {
   border-color: var(--dairy-secondary-color);
   color: var(--dairy-secondary-color);
 }
+
 .dairy_read_transparent--black:hover {
   color: var(--black);
   background: var(--dairy-secondary-color);
   border-color: var(--dairy-secondary-color);
 }
+
 .dairy_read--yellow:hover {
   color: var(--black);
   border-color: var(--black);
   background: transparent;
 }
+
 @media (min-width: 768px) {
   .dairy_read--btn {
     font-size: 20px;
@@ -3119,11 +3703,13 @@
   transition: all 0.5s ease-in-out;
   /* z-index: 999; */
 }
+
 .veg_btn:hover {
   color: var(--black);
   background: var(--veg-primary-color);
   text-decoration: none;
 }
+
 @media (min-width: 576px) {
   .veg_btn {
     max-width: 193px;
@@ -3141,38 +3727,48 @@
   height: 143px;
   transition: all ease 0.4s;
 }
+
 body:has(.vegetable_header .navbar_veg--header button[aria-expanded="true"]) {
   overflow: hidden;
 }
+
 .vegetable_header:has(.navbar_veg--header button[aria-expanded="true"]) {
   height: 100%;
 }
+
 .vegetable_header button[aria-expanded="true"] .hamburger_menu {
   display: none;
 }
+
 .vegetable_header .cross_image {
   rotate: 45deg;
   filter: brightness(0);
   display: none;
 }
+
 .vegetable_header button[aria-expanded="true"] .cross_image {
   display: block;
 }
+
 .vegetable_header button:active,
 .vegetable_header button:focus {
   outline: none;
 }
+
 .vegetable_header .navbar_veg--header {
   background: transparent;
   padding: 1rem;
 }
+
 .navbar_veg--header .navbar-brand {
   width: 100px;
   margin-right: 0rem;
 }
+
 .veg_navbar--nav .nav-item {
   text-align: center;
 }
+
 .veg_navbar--nav .nav-link {
   font-family: var(--montserrat);
   font-style: normal;
@@ -3185,19 +3781,23 @@ body:has(.vegetable_header .navbar_veg--header button[aria-expanded="true"]) {
   border-bottom: 1px solid var(--black);
   transition: all 0.5s ease-in-out;
 }
+
 .veg_navbar--nav .nav-link:hover {
   color: var(--black);
 }
+
 .icons_menu--btns {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 15px;
 }
+
 .icons_menu--btns .search_link {
   display: block;
   margin-right: 33px;
 }
+
 .icons_menu--btns .search_link .icon,
 .icons_menu--btns .cart_link .icon {
   display: block;
@@ -3205,13 +3805,16 @@ body:has(.vegetable_header .navbar_veg--header button[aria-expanded="true"]) {
   font-size: 22px;
   transition: all 0.5s ease;
 }
+
 .icons_menu--btns a:hover {
   text-decoration: none;
 }
+
 .icons_menu--btns .search_link .icon:hover,
 .icons_menu--btns .cart_link .icon:hover {
   filter: invert(1);
 }
+
 .icons_menu--btns .cart_link {
   position: relative;
   display: block;
@@ -3227,6 +3830,7 @@ body:has(.vegetable_header .navbar_veg--header button[aria-expanded="true"]) {
   top: -2px;
   right: -6px;
 }
+
 .cart_count span {
   font-family: var(--montserrat);
   font-style: normal;
@@ -3241,9 +3845,11 @@ body:has(.vegetable_header .navbar_veg--header button[aria-expanded="true"]) {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .cart_link:hover .cart_count {
   background-color: var(--white);
 }
+
 .cart_link:hover .cart_count span {
   color: #000;
 }
@@ -3252,21 +3858,26 @@ body:has(.vegetable_header .navbar_veg--header button[aria-expanded="true"]) {
 .vegetable_header:has(.navbar_veg--header button[aria-expanded="true"]) {
   overflow: auto;
 }
+
 .veg_navbar--nav .sub-menu .linked {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .veg_navbar--nav .sub-menu .linked span {
   font-size: 10px;
   margin-left: 5px;
 }
+
 .veg_navbar--nav .sub-menu .nav-item {
   display: none;
 }
+
 .veg_navbar--nav .sub-menu .nav-item.dropdown {
   display: block;
 }
+
 .veg_navbar--nav .sub-menu .nav-item.dropdown .nav-link {
   border-bottom: none;
 }
@@ -3276,30 +3887,37 @@ body:has(.vegetable_header .navbar_veg--header button[aria-expanded="true"]) {
     width: 100px;
   }
 }
+
 @media (min-width: 992px) {
   .vegetable_header {
     background: transparent;
     position: relative;
     height: auto;
   }
+
   .veg_navbar--nav .nav-item {
     text-align: left;
   }
+
   .vegetable_header .navbar-collapse {
     justify-content: flex-end;
     align-items: flex-end;
   }
+
   .veg_navbar--nav .nav-link {
     padding: 0px 20px !important;
     font-size: 16px;
   }
+
   .veg_navbar--nav .nav-item.active .nav-link {
     color: #000;
   }
+
   .veg_navbar--nav .nav-item:last-child .nav-link {
     padding-right: 33px !important;
     position: relative;
   }
+
   .veg_navbar--nav .nav-item:last-child .nav-link::before {
     content: "";
     position: absolute;
@@ -3314,10 +3932,12 @@ body:has(.vegetable_header .navbar_veg--header button[aria-expanded="true"]) {
   .veg_navbar--nav .nav-link {
     border-bottom: none;
   }
-  .veg_navbar--nav .sub-menu:hover > ul.nav-item {
+
+  .veg_navbar--nav .sub-menu:hover>ul.nav-item {
     display: block;
   }
-  .veg_navbar--nav .sub-menu > ul {
+
+  .veg_navbar--nav .sub-menu>ul {
     position: absolute;
     width: 270px;
     text-align: left;
@@ -3328,59 +3948,72 @@ body:has(.vegetable_header .navbar_veg--header button[aria-expanded="true"]) {
     display: none;
     transition: all 0.5s ease;
   }
-  .veg_navbar--nav .sub-menu > ul .nav-link {
+
+  .veg_navbar--nav .sub-menu>ul .nav-link {
     color: var(--black);
     border-bottom: 1px solid var(--black);
     padding-top: 0.85rem !important;
     padding-bottom: 0.85rem !important;
     padding-left: 0.5rem !important;
   }
+
   .veg_navbar--nav .nav-item.active .nav-item .nav-link.active,
   .veg_navbar--nav .nav-item.active .nav-item .nav-link:hover,
   .veg_navbar--nav .nav-item .nav-item .nav-link:hover {
     color: var(--white);
     background: #20a401;
   }
-  .veg_navbar--nav .sub-menu > ul li:last-child .nav-link {
+
+  .veg_navbar--nav .sub-menu>ul li:last-child .nav-link {
     border-bottom: none;
   }
 }
+
 @media (min-width: 1200px) {
   .vegetable_header .navbar_veg--header {
     padding-left: 1.5rem;
     padding-right: 2rem;
   }
+
   .veg_navbar--nav .nav-item:nth-of-type(3) .nav-link {
     color: #fff;
   }
+
   .veg_navbar--nav .nav-item:nth-of-type(3):hover .nav-link {
     color: #000;
   }
 }
+
 @media (min-width: 1440px) {
   .veg_navbar--nav .nav-item:nth-of-type(2) .nav-link {
     color: #fff;
   }
+
   .veg_navbar--nav .nav-item:nth-of-type(2):hover .nav-link {
     color: #000;
   }
 }
+
 @media (min-width: 1536px) {
   .navbar_veg--header .navbar-brand {
     width: auto;
   }
+
   .veg_navbar--nav .nav-link {
     font-size: 18px;
   }
 }
+
 @media (min-width: 1880px) {
   .vegetable_header .navbar_veg--header {
     padding-left: 3.125rem;
     padding-right: 1.5rem;
   }
+
   .veg_navbar--nav .nav-link {
     padding: 0px 30px !important;
   }
+
   .veg_navbar--nav .nav-item:last-child .nav-link::before {
     top: 4px;
   }
@@ -3394,13 +4027,12 @@ body:has(.vegetable_header .navbar_veg--header button[aria-expanded="true"]) {
   .vegetable_header {
     position: unset;
   }
-  .banner_ecllipse--fruits{
+
+  .banner_ecllipse--fruits {
     display: none;
   }
 
-  .vegetable_banner--wrapper{
-      margin-top: 0;
+  .vegetable_banner--wrapper {
+    margin-top: 0;
   }
 }
-
-
